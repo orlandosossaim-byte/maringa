@@ -180,15 +180,15 @@
 <div class="screen active" id="screen-login">
   <div class="brand">
     <div class="brand-badge">📋</div>
-    <h1>Sessões da Equipe</h1>
+    <h1>Sessões da Equipe de Maringá</h1>
     <div class="subtitle">Selecione como deseja entrar</div>
   </div>
   <div id="install-banner" class="install-banner">
     <span>📲 Instale este app na tela inicial</span>
     <button id="btn-install">Instalar</button>
   </div>
-  <button class="btn btn-primary" id="btn-go-vendedor">🙋 Sou Vendedor</button>
-  <button class="btn btn-outline" id="btn-go-master">🔐 Sou Master</button>
+  <button class="btn btn-primary" id="btn-go-vendedor">🙋 Sou Vendedor/Caixa</button>
+  <button class="btn btn-outline" id="btn-go-master">🔐 Sou Gerente/Vm</button>
   <div class="footer-note">Reinicia automaticamente todo dia às 08:00</div>
 </div>
 
@@ -227,7 +227,7 @@
         <div style="font-size:.75rem;color:var(--text-dim);" id="vendedor-data">-</div>
       </div>
     </div>
-    <div class="icon-btn" id="btn-logout-vendedor">⎋</div>
+    <div class="icon-btn" id="btn-logout-vendedor">X</div>
   </div>
 
   <div class="progress-wrap">
@@ -274,7 +274,7 @@
       <button class="btn btn-primary btn-sm" id="btn-salvar-senha">Salvar nova senha</button>
     </div>
     <div class="card">
-      <div style="font-weight:700; margin-bottom:6px;">Reiniciar marcações de hoje</div>
+      <div style="font-weight:700; margin-bottom:6px;">Reiniciar Sessoes de hoje</div>
       <div style="font-size:.8rem;color:var(--text-dim);margin-bottom:12px;">Zera as marcações do dia atual manualmente. O histórico não é apagado.</div>
       <button class="btn btn-danger btn-sm" id="btn-reset-hoje">Reiniciar marcações de hoje</button>
     </div>
@@ -292,7 +292,7 @@
 /* ================= CONFIG ================= */
 const SELLERS = ['Orlando','Rafaela','Matheus','André'];
 const MAX_MARKS = 3;
-const RESET_HOUR = 8;
+const RESET_HOUR = 24;
 const DEFAULT_MASTER_PASS = '1234';
 const COLORS = ['#6366F1','#22C55E','#F59E0B','#EC4899'];
 
